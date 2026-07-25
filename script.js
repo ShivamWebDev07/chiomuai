@@ -7,7 +7,7 @@ const chatsList = document.getElementById("chatsList");
 const newChatBtn = document.getElementById("newChatBtn");
 
 let backendConnected = false;
-let backendURL = "https://shivam23445-chomuai.hf.space";
+let backendURL = "https://shivam23445-botmen-ai.hf.space";
  // 👈 apna Serveo URL daal (https://abc123.serveo.net)
 let chats = JSON.parse(localStorage.getItem("sparkmind_chats")) || {};
 let activeChat = localStorage.getItem("sparkmind_active") || null;
